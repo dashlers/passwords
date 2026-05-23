@@ -5,11 +5,12 @@
 
 $startTime = Get-Date
 
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 
 # Install Scoop and stuff
-
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+if (-not (Get-Command scoop -ErrorAction SilentlyClearColor)) {
+  Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+  }
 
 scoop install git nodejs-lts python
 
