@@ -1,6 +1,7 @@
 # Dashley's Install Script
 # Run this in a new Windows Sandbox or clean install to get a dev environment set up.
-# Invoke-RestMethod -Uri "https://github.com/dashlers/passwords/setup.ps1" | Invoke-Expression
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+# Invoke-RestMethod -Uri "https://raw.githubusercontent.com/dashlers/passwords/refs/heads/main/setup.ps1" | Invoke-Expression
 
 $startTime = Get-Date
 
