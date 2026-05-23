@@ -8,7 +8,7 @@ $startTime = Get-Date
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 
 # Install Scoop and stuff
-if (-not (Get-Command scoop -ErrorAction SilentlyClearColor)) {
+if (-not (Get-Command scoop -ErrorAction SilentlyContinue)) {
   Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
   }
 
