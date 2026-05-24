@@ -1,5 +1,5 @@
 # passwords.kdbx
-public mirror of my password manager file
+[public mirror of my password manager file](https://drive.google.com/uc?export=download&id=1-zNzjqc1j21o1KiI1qEjbtADMaTq77Mr)
 
 ## passwords_sync.sh
 synchronizes passwords.kdbx from Google Drive (source of truth) into this repository (mirror)
