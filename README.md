@@ -1,5 +1,5 @@
 # passwords.kdbx
-[public mirror of my password manager file](https://drive.google.com/uc?export=download&id=1-zNzjqc1j21o1KiI1qEjbtADMaTq77Mr)
+[Link to my password manager file](https://drive.google.com/uc?export=download&id=1-zNzjqc1j21o1KiI1qEjbtADMaTq77Mr)
 
 ## setup.ps1
 sets up my dev environment in a Windows Sandbox or clean install
