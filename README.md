@@ -1,6 +1,9 @@
 # passwords.kdbx
 [Link to my password manager file](https://drive.google.com/uc?export=download&id=1-zNzjqc1j21o1KiI1qEjbtADMaTq77Mr)
 
+## .github/workflows/backup-password.yml
+Run this github action to make a backup of the passwords vault.
+
 ## setup.ps1
 sets up my dev environment in a Windows Sandbox or clean install
 Initial setup takes 40 mins currently.
